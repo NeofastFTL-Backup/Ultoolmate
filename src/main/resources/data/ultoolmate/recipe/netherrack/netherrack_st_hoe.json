@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherrack"
+  },
+  "base": {
+    "item": "minecraft:diamond_hoe"
+  },
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:netherrack_hoe"
+  },
+  "template": {
+    "item": "ultoolmate:netherrack_st"
+  }
+}

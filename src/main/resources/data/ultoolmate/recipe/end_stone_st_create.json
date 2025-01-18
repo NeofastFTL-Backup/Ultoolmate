@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "C": {
+      "item": "minecraft:end_stone"
+    },
+    "S": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:end_stone_st"
+  }
+}
