@@ -1,7 +1,8 @@
 
-package com.neofastftl.multimod;
+package com.neofastftl.ultoolmate;
 
-import com.neofastftl.multimod.items.CustomItems;
+import com.neofastftl.ultoolmate.items.CustomBlocks;
+import com.neofastftl.ultoolmate.items.CustomItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -37,6 +38,8 @@ public class Ultoolmate {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
         CustomItems.register(modEventBus);
+        CustomBlocks.register(modEventBus);
+
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -58,6 +61,8 @@ public class Ultoolmate {
             event.accept(CustomItems.END_STONE_SWORD);
             event.accept(CustomItems.END_STONE_SHEARS);
             event.accept(CustomItems.END_STONE_BRUSH);
+
+            event.accept(CustomItems.END_STONE_PAXEL);
 
             event.accept(CustomItems.NETHERRACK_PICKAXE);
             event.accept(CustomItems.NETHERRACK_AXE);

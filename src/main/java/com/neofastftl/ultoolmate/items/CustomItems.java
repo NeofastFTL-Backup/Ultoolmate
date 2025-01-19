@@ -1,8 +1,10 @@
-package com.neofastftl.multimod.items;
+package com.neofastftl.ultoolmate.items;
 
-import com.neofastftl.multimod.Ultoolmate;
-import com.neofastftl.multimod.items.tools.CustomTiers;
+import com.neofastftl.ultoolmate.Ultoolmate;
+import com.neofastftl.ultoolmate.items.tools.CustomPaxel;
+import com.neofastftl.ultoolmate.items.tools.CustomTiers;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -29,6 +31,10 @@ public class CustomItems {
             () -> new ShearsItem(new Item.Properties().durability(250)));
     public static final DeferredItem<BrushItem> END_STONE_BRUSH= ITEMS.register("end_stone_brush",
             () -> new BrushItem(new Item.Properties().durability(250)));
+
+    public static final DeferredItem<CustomPaxel> END_STONE_PAXEL= ITEMS.register("end_stone_paxel",
+            () -> new CustomPaxel(CustomTiers.END_STONE_PAXEL, new Item.Properties()
+                    .attributes(CustomPaxel.createAttributes(CustomTiers.END_STONE_PAXEL, 1.0F, 2.8f))));
 
 
     public static final DeferredItem<PickaxeItem> NETHERRACK_PICKAXE = ITEMS.register("netherrack_pickaxe",

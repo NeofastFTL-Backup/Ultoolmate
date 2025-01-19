@@ -1,4 +1,4 @@
-package com.neofastftl.multimod;
+package com.neofastftl.ultoolmate;
 
 import java.util.List;
 import java.util.Set;
