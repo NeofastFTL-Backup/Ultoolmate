@@ -16,7 +16,7 @@ public class CustomBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(Ultoolmate.MOD_ID);
 
-    public static final DeferredBlock<Block> RAW_END_COAL_ORe = registerBlock("raw_end_coal_ore",
+    public static final DeferredBlock<Block> RAW_END_COAL_ORE = registerBlock("raw_end_coal_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHER_GOLD_ORE)));
 

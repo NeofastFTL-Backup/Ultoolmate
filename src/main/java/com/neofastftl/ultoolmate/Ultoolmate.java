@@ -74,6 +74,8 @@ public class Ultoolmate {
 
             event.accept(CustomItems.END_STONE_ST);
             event.accept(CustomItems.NETHERRACK_ST);
+
+            event.accept(CustomBlocks.RAW_END_COAL_ORE);
         }
     }
 
