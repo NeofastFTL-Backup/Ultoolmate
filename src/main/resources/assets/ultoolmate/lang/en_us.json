@@ -17,5 +17,8 @@
   "item.ultoolmate.netherrack_brush": "Netherrack Brush",
 
   "item.ultoolmate.end_stone_st": "End Stone Smithing Template",
-  "item.ultoolmate.netherrack_st": "Netherrack Smithing Template"
+  "item.ultoolmate.netherrack_st": "Netherrack Smithing Template",
+
+  "block.ultoolmate.raw_electrum_ore": "Raw Electrum Ore",
+  "block.ultoolmate.deepslate_raw_electrum_ore": "Deepslate Raw Electrum Ore"
 }

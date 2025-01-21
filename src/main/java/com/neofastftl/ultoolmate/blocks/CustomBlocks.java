@@ -1,6 +1,7 @@
-package com.neofastftl.ultoolmate.items;
+package com.neofastftl.ultoolmate.blocks;
 
 import com.neofastftl.ultoolmate.Ultoolmate;
+import com.neofastftl.ultoolmate.items.CustomItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -16,9 +17,13 @@ public class CustomBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(Ultoolmate.MOD_ID);
 
-    public static final DeferredBlock<Block> RAW_END_COAL_ORE = registerBlock("raw_end_coal_ore",
+    public static final DeferredBlock<Block> RAW_ELECTRUM_ORE = registerBlock("raw_electrum_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHER_GOLD_ORE)));
+
+    public static final DeferredBlock<Block> DEEPSLATE_RAW_ELECTRUM_ORE = registerBlock("deepslate_raw_electrum_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

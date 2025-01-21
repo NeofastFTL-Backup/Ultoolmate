@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "refined_electrum_ingot",
+  "ingredient": {
+    "item": "ultoolmate:raw_electrum_ore"
+  },
+  "result": {
+    "id": "ultoolmate:refined_electrum_ingot"
+  }
+}

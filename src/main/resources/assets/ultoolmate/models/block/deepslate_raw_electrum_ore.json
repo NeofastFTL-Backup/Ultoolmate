@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ultoolmate:block/deepslate_raw_electrum_ore"
+  }
+}

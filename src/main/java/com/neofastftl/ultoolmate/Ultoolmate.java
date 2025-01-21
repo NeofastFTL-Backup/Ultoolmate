@@ -1,7 +1,7 @@
 
 package com.neofastftl.ultoolmate;
 
-import com.neofastftl.ultoolmate.items.CustomBlocks;
+import com.neofastftl.ultoolmate.blocks.CustomBlocks;
 import com.neofastftl.ultoolmate.items.CustomItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -75,7 +75,8 @@ public class Ultoolmate {
             event.accept(CustomItems.END_STONE_ST);
             event.accept(CustomItems.NETHERRACK_ST);
 
-            event.accept(CustomBlocks.RAW_END_COAL_ORE);
+            event.accept(CustomBlocks.RAW_ELECTRUM_ORE);
+            event.accept(CustomBlocks.DEEPSLATE_RAW_ELECTRUM_ORE);
         }
     }
 

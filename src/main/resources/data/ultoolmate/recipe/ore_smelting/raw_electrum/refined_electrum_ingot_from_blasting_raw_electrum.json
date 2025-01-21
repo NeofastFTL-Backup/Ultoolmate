@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "raw_electrum_ingot",
+  "ingredient": {
+    "item": "ultoolmate:raw_electrum"
+  },
+  "result": {
+    "id": "ultoolmate:refined_electrum_ingot"
+  }
+}
