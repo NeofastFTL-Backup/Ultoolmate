@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "P": {
+      "item": "minecraft:wooden_sword"
+    },
+    "X": {
+      "item": "minecraft:wooden_hoe"
+    }
+  },
+  "pattern": [
+    "PSX",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:placeholder_sworoe"
+  }
+}

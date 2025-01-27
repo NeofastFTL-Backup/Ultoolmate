@@ -75,8 +75,13 @@ public class Ultoolmate {
             event.accept(CustomItems.END_STONE_ST);
             event.accept(CustomItems.NETHERRACK_ST);
 
+            event.accept(CustomItems.SWOROE_ST);
+            event.accept(CustomItems.PAXEL_ST);
+
             event.accept(CustomBlocks.RAW_ELECTRUM_ORE);
             event.accept(CustomBlocks.DEEPSLATE_RAW_ELECTRUM_ORE);
+            event.accept(CustomBlocks.RAW_ELECTRUM_BLOCK);
+            event.accept(CustomItems.RAW_ELECTRUM);
         }
     }
 

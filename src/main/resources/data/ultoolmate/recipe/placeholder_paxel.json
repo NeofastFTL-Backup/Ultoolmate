@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "P": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "A": {
+      "item": "minecraft:wooden_axe"
+    },
+    "X": {
+      "item": "minecraft:wooden_shovel"
+    }
+  },
+  "pattern": [
+    "PAX",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:placeholder_paxel"
+  }
+}

@@ -15,9 +15,19 @@
   "item.ultoolmate.netherrack_sword": "Netherrack Sword",
   "item.ultoolmate.netherrack_shears": "Netherrack Shears",
   "item.ultoolmate.netherrack_brush": "Netherrack Brush",
+  "item.ultoolmate.netherrack_paxel": "Netherrack Paxel",
 
   "item.ultoolmate.end_stone_st": "End Stone Smithing Template",
   "item.ultoolmate.netherrack_st": "Netherrack Smithing Template",
+
+  "item.ultoolmate.sworoe_st": "Sworoe Upgrade Template",
+  "tooltip.ultoolmate.sworoe_st.tooltip": "The Good Time ~ Spotishman",
+  "item.ultoolmate.paxel_st": "Paxel Upgrade Template",
+  "tooltip.ultoolmate.paxel_st.tooltip": "Imagine if u can make the paxel moan everytime you break a block ~ SadRain",
+
+  "item.ultoolmate.paxel_placeholder": "Paxel (Placeholder)",
+  "item.ultoolmate.sworoe_placeholder": "Sworoe (Placeholder)",
+
 
   "block.ultoolmate.raw_electrum_ore": "Raw Electrum Ore",
   "block.ultoolmate.deepslate_raw_electrum_ore": "Deepslate Raw Electrum Ore"

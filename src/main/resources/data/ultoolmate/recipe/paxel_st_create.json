@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "S": {
+      "item": "minecraft:diamond_shovel"
+    },
+    "T": {
+      "item": "minecraft:lava_bucket"
+    },
+    "H": {
+      "item": "minecraft:diamond_axe"
+    },
+    "D": {
+      "item": "minecraft:diamond_pickaxe"
+    }
+  },
+  "pattern": [
+    "I I",
+    "ITI",
+    "SDH"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:paxel_st"
+  }
+}
