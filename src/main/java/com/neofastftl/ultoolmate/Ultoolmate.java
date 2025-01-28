@@ -78,6 +78,9 @@ public class Ultoolmate {
             event.accept(CustomItems.SWOROE_ST);
             event.accept(CustomItems.PAXEL_ST);
 
+            event.accept(CustomItems.PLACEHOLDER_PAXEL);
+            event.accept(CustomItems.PLACEHOLDER_SWOROE);
+
             event.accept(CustomBlocks.RAW_ELECTRUM_ORE);
             event.accept(CustomBlocks.DEEPSLATE_RAW_ELECTRUM_ORE);
             event.accept(CustomBlocks.RAW_ELECTRUM_BLOCK);
