@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-    "layer0": "ultoolmate:item/end_stone_st"
+    "layer0": "ultoolmate:item/placeholder_brush"
     }
 }

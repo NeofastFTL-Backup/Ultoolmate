@@ -61,8 +61,8 @@ public class Ultoolmate {
             event.accept(CustomItems.END_STONE_SWORD);
             event.accept(CustomItems.END_STONE_SHEARS);
             event.accept(CustomItems.END_STONE_BRUSH);
-
             event.accept(CustomItems.END_STONE_PAXEL);
+            event.accept(CustomItems.END_STONE_SWOROE);
 
             event.accept(CustomItems.NETHERRACK_PICKAXE);
             event.accept(CustomItems.NETHERRACK_AXE);
@@ -71,15 +71,34 @@ public class Ultoolmate {
             event.accept(CustomItems.NETHERRACK_SWORD);
             event.accept(CustomItems.NETHERRACK_SHEARS);
             event.accept(CustomItems.NETHERRACK_BRUSH);
+            event.accept(CustomItems.NETHERRACK_PAXEL);
+            event.accept(CustomItems.NETHERRACK_SWOROE);
 
             event.accept(CustomItems.END_STONE_ST);
             event.accept(CustomItems.NETHERRACK_ST);
 
             event.accept(CustomItems.SWOROE_ST);
             event.accept(CustomItems.PAXEL_ST);
+            event.accept(CustomItems.SHEARS_ST);
+            event.accept(CustomItems.SHOVEL_ST);
+            event.accept(CustomItems.SWORD_ST);
+            event.accept(CustomItems.AXE_ST);
+            event.accept(CustomItems.HOE_ST);
+            event.accept(CustomItems.PICKAXE_ST);
+            event.accept(CustomItems.BRUSH_ST);
+
+
 
             event.accept(CustomItems.PLACEHOLDER_PAXEL);
             event.accept(CustomItems.PLACEHOLDER_SWOROE);
+            event.accept(CustomItems.PLACEHOLDER_HOE);
+            event.accept(CustomItems.PLACEHOLDER_AXE);
+            event.accept(CustomItems.PLACEHOLDER_SWORD);
+            event.accept(CustomItems.PLACEHOLDER_PICKAXE);
+            event.accept(CustomItems.PLACEHOLDER_SHOVEL);
+            event.accept(CustomItems.PLACEHOLDER_BRUSH);
+            event.accept(CustomItems.PLACEHOLDER_SHEARS);
+
 
             event.accept(CustomBlocks.RAW_ELECTRUM_ORE);
             event.accept(CustomBlocks.DEEPSLATE_RAW_ELECTRUM_ORE);

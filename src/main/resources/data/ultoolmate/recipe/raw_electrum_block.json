@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "storage",
+  "key": {
+    "S": {
+      "item": "ultoolmate:raw_electrum"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:raw_electrum_block"
+  }
+}

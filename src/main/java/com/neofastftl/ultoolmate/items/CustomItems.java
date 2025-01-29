@@ -16,6 +16,8 @@ import java.util.List;
 public class CustomItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Ultoolmate.MOD_ID);
 
+
+    //End Stone
     public static final DeferredItem<PickaxeItem> END_STONE_PICKAXE = ITEMS.register("end_stone_pickaxe",
             () -> new PickaxeItem(CustomTiers.ENDSTONE, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(CustomTiers.ENDSTONE, 1.0F, 2.8f))));
@@ -35,16 +37,15 @@ public class CustomItems {
             () -> new ShearsItem(new Item.Properties().durability(250)));
     public static final DeferredItem<BrushItem> END_STONE_BRUSH= ITEMS.register("end_stone_brush",
             () -> new BrushItem(new Item.Properties().durability(250)));
-
     public static final DeferredItem<CustomPaxel> END_STONE_PAXEL= ITEMS.register("end_stone_paxel",
             () -> new CustomPaxel(CustomTiers.PAXEL, new Item.Properties()
                     .attributes(CustomPaxel.createAttributes(CustomTiers.PAXEL, 1.0F, 2.8f))));
-
     public static final DeferredItem<CustomSworoe> END_STONE_SWOROE= ITEMS.register("end_stone_sworoe",
-            () -> new CustomSworoe(CustomTiers.PAXEL, new Item.Properties()
-                    .attributes(CustomPaxel.createAttributes(CustomTiers.PAXEL, 1.0F, 2.8f))));
+            () -> new CustomSworoe(CustomTiers.SWOROE, new Item.Properties()
+                    .attributes(CustomSworoe.createAttributes(CustomTiers.SWOROE, 11.0F, 7.8f))));
 
 
+    //Netherrack
     public static final DeferredItem<PickaxeItem> NETHERRACK_PICKAXE = ITEMS.register("netherrack_pickaxe",
             () -> new PickaxeItem(CustomTiers.NETHERRACK, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(CustomTiers.NETHERRACK, 1.0F, 2.8f))));
@@ -64,15 +65,26 @@ public class CustomItems {
             () -> new ShearsItem(new Item.Properties().durability(250)));
     public static final DeferredItem<BrushItem> NETHERRACK_BRUSH= ITEMS.register("netherrack_brush",
             () -> new BrushItem(new Item.Properties().durability(250)));
+    public static final DeferredItem<CustomPaxel> NETHERRACK_PAXEL= ITEMS.register("netherrack_paxel",
+            () -> new CustomPaxel(CustomTiers.PAXEL, new Item.Properties()
+                    .attributes(CustomPaxel.createAttributes(CustomTiers.PAXEL, 1.0F, 2.8f))));
+    public static final DeferredItem<CustomSworoe> NETHERRACK_SWOROE= ITEMS.register("netherrack_sworoe",
+            () -> new CustomSworoe(CustomTiers.SWOROE, new Item.Properties()
+                    .attributes(CustomSworoe.createAttributes(CustomTiers.SWOROE, 11.0F, 7.8f))));
 
-
+   //Raw Materials
     public static final DeferredItem<Item> RAW_ELECTRUM = ITEMS.register("raw_electrum",
             () -> new Item(new Item.Properties()));
 
+    //Smithing Templates
+
+    //Materials
     public static final DeferredItem<Item> END_STONE_ST = ITEMS.register("end_stone_st",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> NETHERRACK_ST = ITEMS.register("netherrack_st",
             () -> new Item(new Item.Properties()));
+
+    //Tools
     public static final DeferredItem<Item> PAXEL_ST = ITEMS.register("paxel_st",
             () -> new Item(new Item.Properties()) {
                 @Override
@@ -90,6 +102,67 @@ public class CustomItems {
                 }
             });
 
+    public static final DeferredItem<Item> HOE_ST = ITEMS.register("hoe_st",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.ultoolmate.hoe_st.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+    public static final DeferredItem<Item> AXE_ST = ITEMS.register("axe_st",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.ultoolmate.axe_st.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+
+    public static final DeferredItem<Item> PICKAXE_ST = ITEMS.register("pickaxe_st",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.ultoolmate.pickaxe_st.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+    public static final DeferredItem<Item> SHOVEL_ST = ITEMS.register("shovel_st",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.ultoolmate.shovel_st.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+    public static final DeferredItem<Item> SWORD_ST = ITEMS.register("sword_st",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.ultoolmate.sword_st.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+    public static final DeferredItem<Item> SHEARS_ST = ITEMS.register("shears_st",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.ultoolmate.shears_st.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+    public static final DeferredItem<Item> BRUSH_ST = ITEMS.register("brush_st",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.ultoolmate.brush_st.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+
+
+
+    //Placeholder Tools
     public static final DeferredItem<Item> PLACEHOLDER_PAXEL = ITEMS.register("placeholder_paxel",
             () -> new Item(new Item.Properties()) {
                 @Override
@@ -107,7 +180,62 @@ public class CustomItems {
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
-
+    public static final DeferredItem<Item> PLACEHOLDER_HOE = ITEMS.register("placeholder_hoe",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.ultoolmate.placeholder.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+    public static final DeferredItem<Item> PLACEHOLDER_AXE = ITEMS.register("placeholder_axe",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.ultoolmate.placeholder.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+    public static final DeferredItem<Item> PLACEHOLDER_SWORD = ITEMS.register("placeholder_sword",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.ultoolmate.placeholder.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+    public static final DeferredItem<Item> PLACEHOLDER_PICKAXE = ITEMS.register("placeholder_pickaxe",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.ultoolmate.placeholder.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+    public static final DeferredItem<Item> PLACEHOLDER_SHOVEL = ITEMS.register("placeholder_shovel",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.ultoolmate.placeholder.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+    public static final DeferredItem<Item> PLACEHOLDER_BRUSH = ITEMS.register("placeholder_brush",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.ultoolmate.placeholder.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+    public static final DeferredItem<Item> PLACEHOLDER_SHEARS = ITEMS.register("placeholder_shears",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.ultoolmate.placeholder.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

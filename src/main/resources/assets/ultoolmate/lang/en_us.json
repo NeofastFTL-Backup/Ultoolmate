@@ -7,6 +7,7 @@
   "item.ultoolmate.end_stone_shears": "End Stone Shears",
   "item.ultoolmate.end_stone_brush": "End Stone Brush",
   "item.ultoolmate.end_stone_paxel": "End Stone Paxel",
+  "item.ultoolmate.end_stone_sworoe": "End Stone Sworoe",
 
   "item.ultoolmate.netherrack_axe": "Netherrack Axe",
   "item.ultoolmate.netherrack_hoe": "Netherrack Hoe",
@@ -16,19 +17,39 @@
   "item.ultoolmate.netherrack_shears": "Netherrack Shears",
   "item.ultoolmate.netherrack_brush": "Netherrack Brush",
   "item.ultoolmate.netherrack_paxel": "Netherrack Paxel",
+  "item.ultoolmate.netherrack_sworoe": "Netherrack Sworoe",
 
   "item.ultoolmate.end_stone_st": "End Stone Smithing Template",
   "item.ultoolmate.netherrack_st": "Netherrack Smithing Template",
 
   "item.ultoolmate.sworoe_st": "Sworoe Upgrade Template",
-  "tooltip.ultoolmate.sworoe_st.tooltip": "The Good Time ~ Spotishman",
   "item.ultoolmate.paxel_st": "Paxel Upgrade Template",
-  "tooltip.ultoolmate.paxel_st.tooltip": "Imagine if u can make the paxel moan everytime you break a block ~ SadRain",
+  "item.ultoolmate.hoe_st": "Hoe Upgrade Template",
+  "item.ultoolmate.axe_st": "Axe Upgrade Template",
+  "item.ultoolmate.pickaxe_st": "Pickaxe Upgrade Template",
+  "item.ultoolmate.shovel_st": "Shovel Upgrade Template",
+  "item.ultoolmate.sword_st": "Sword Upgrade Template",
+  "item.ultoolmate.shears_st": "Shears Upgrade Template",
+  "item.ultoolmate.brush_st": "Brush Upgrade Template",
 
-  "item.ultoolmate.paxel_placeholder": "Paxel (Placeholder)",
-  "item.ultoolmate.sworoe_placeholder": "Sworoe (Placeholder)",
 
+  "item.ultoolmate.placeholder_paxel": "Paxel (Placeholder)",
+  "item.ultoolmate.placeholder_sworoe": "Sworoe (Placeholder)",
+  "item.ultoolmate.placeholder_pickaxe": "Pickaxe (Placeholder)",
+  "item.ultoolmate.placeholder_shovel": "Shovel (Placeholder)",
+  "item.ultoolmate.placeholder_sword": "Sword (Placeholder)",
+  "item.ultoolmate.placeholder_hoe": "Hoe (Placeholder)",
+  "item.ultoolmate.placeholder_shears": "Shears (Placeholder)",
+  "item.ultoolmate.placeholder_brush": "Brush (Placeholder)",
+  "item.ultoolmate.placeholder_axe": "Axe (Placeholder)",
 
   "block.ultoolmate.raw_electrum_ore": "Raw Electrum Ore",
-  "block.ultoolmate.deepslate_raw_electrum_ore": "Deepslate Raw Electrum Ore"
+  "block.ultoolmate.deepslate_raw_electrum_ore": "Deepslate Raw Electrum Ore",
+  "block.ultoolmate.raw_electrum_block": "Raw Electrum Block",
+  "item.ultoolmate.raw_electrum": "Raw Electrum",
+
+
+  "tooltip.ultoolmate.sworoe_st.tooltip": "The Good Time ~ Spotishman",
+  "tooltip.ultoolmate.paxel_st.tooltip": "Imagine if you can make the paxel moan everytime you break a block ~ SadRain",
+  "tooltip.ultoolmate.placeholder.tooltip": "This has a lot of usage for different materials!"
 }
