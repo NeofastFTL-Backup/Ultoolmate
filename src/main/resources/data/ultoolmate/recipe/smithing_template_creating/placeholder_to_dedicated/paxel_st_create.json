@@ -3,25 +3,22 @@
   "category": "misc",
   "key": {
     "I": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:iron_ingot"
     },
-    "S": {
-      "item": "minecraft:diamond_shovel"
-    },
-    "T": {
+    "L": {
       "item": "minecraft:lava_bucket"
     },
-    "H": {
-      "item": "minecraft:diamond_axe"
+    "W": {
+      "item": "minecraft:water_bucket"
     },
-    "D": {
-      "item": "minecraft:diamond_pickaxe"
+    "T": {
+      "item": "ultoolmate:placeholder_paxel"
     }
   },
   "pattern": [
-    "I I",
-    "ITI",
-    "SDH"
+    "III",
+    "LTW",
+    "III"
   ],
   "result": {
     "count": 1,

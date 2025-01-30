@@ -4,7 +4,7 @@
     "item": "minecraft:end_stone"
   },
   "base": {
-    "item": "minecraft:diamond_hoe"
+    "item": "ultoolmate:placeholder_hoe"
   },
   "result": {
     "count": 1,

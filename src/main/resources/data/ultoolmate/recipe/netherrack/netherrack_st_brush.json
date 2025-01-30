@@ -4,7 +4,7 @@
     "item": "minecraft:netherrack"
   },
   "base": {
-    "item": "minecraft:brush"
+    "item": "ultoolmate:placeholder_brush"
   },
   "result": {
     "count": 1,

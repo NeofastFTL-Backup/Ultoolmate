@@ -4,7 +4,7 @@
     "item": "minecraft:netherrack"
   },
   "base": {
-    "item": "minecraft:diamond_shovel"
+    "item": "ultoolmate:placeholder_shovel"
   },
   "result": {
     "count": 1,

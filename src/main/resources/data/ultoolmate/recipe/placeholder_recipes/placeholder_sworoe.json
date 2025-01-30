@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:paper"
+    },
+    "P": {
+      "item": "minecraft:wooden_sword"
+    },
+    "X": {
+      "item": "minecraft:wooden_hoe"
+    }
+  },
+  "pattern": [
+    "PRX",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:placeholder_sworoe"
+  }
+}

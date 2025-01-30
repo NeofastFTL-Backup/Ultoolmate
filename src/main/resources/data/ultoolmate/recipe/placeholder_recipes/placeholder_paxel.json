@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "S": {
-      "item": "minecraft:stick"
+    "R": {
+      "item": "minecraft:paper"
     },
     "P": {
       "item": "minecraft:wooden_pickaxe"
@@ -17,8 +17,8 @@
   },
   "pattern": [
     "PAX",
-    " S ",
-    " S "
+    "RRR",
+    "RRR"
   ],
   "result": {
     "count": 1,

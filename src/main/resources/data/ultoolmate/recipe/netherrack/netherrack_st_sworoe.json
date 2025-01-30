@@ -4,13 +4,13 @@
     "item": "minecraft:netherrack"
   },
   "base": {
-    "item": "ultoolmate:placeholder_sword"
+    "item": "ultoolmate:placeholder_sworoe"
   },
   "result": {
     "count": 1,
-    "id": "ultoolmate:netherrack_sword"
+    "id": "ultoolmate:netherrack_sworoe"
   },
   "template": {
-    "item": "ultoolmate:netherrack_st"
+    "item": "ultoolmate:sworoe_st"
   }
 }

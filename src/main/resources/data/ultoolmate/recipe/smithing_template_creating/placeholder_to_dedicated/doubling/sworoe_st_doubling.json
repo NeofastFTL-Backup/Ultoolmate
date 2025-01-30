@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "T": {
+      "item": "ultoolmate:sworoe_st"
+    }
+  },
+  "pattern": [
+    "IPI",
+    "ITI",
+    "III"
+  ],
+  "result": {
+    "count": 2,
+    "id": "ultoolmate:sworoe_st"
+  }
+}

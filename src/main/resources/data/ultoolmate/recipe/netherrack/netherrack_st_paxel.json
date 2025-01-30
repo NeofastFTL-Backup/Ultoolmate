@@ -4,13 +4,13 @@
     "item": "minecraft:netherrack"
   },
   "base": {
-    "item": "ultoolmate:placeholder_sword"
+    "item": "ultoolmate:placeholder_paxel"
   },
   "result": {
     "count": 1,
-    "id": "ultoolmate:netherrack_sword"
+    "id": "ultoolmate:netherrack_paxel"
   },
   "template": {
-    "item": "ultoolmate:netherrack_st"
+    "item": "ultoolmate:paxel_st"
   }
 }

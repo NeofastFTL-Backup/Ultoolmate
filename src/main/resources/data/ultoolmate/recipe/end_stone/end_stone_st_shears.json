@@ -4,7 +4,7 @@
     "item": "minecraft:end_stone"
   },
   "base": {
-    "item": "minecraft:shears"
+    "item": "ultoolmate:placeholder_shears"
   },
   "result": {
     "count": 1,

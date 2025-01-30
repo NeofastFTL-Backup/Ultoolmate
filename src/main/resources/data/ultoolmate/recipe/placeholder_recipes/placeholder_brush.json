@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:paper"
+    },
+    "P": {
+      "item": "minecraft:brush"
+    }
+  },
+  "pattern": [
+    "RPR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:placeholder_brush"
+  }
+}

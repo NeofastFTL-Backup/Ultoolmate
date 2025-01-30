@@ -4,7 +4,7 @@
     "item": "minecraft:netherrack"
   },
   "base": {
-    "item": "minecraft:diamond_axe"
+    "item": "ultoolmate:placeholder_axe"
   },
   "result": {
     "count": 1,

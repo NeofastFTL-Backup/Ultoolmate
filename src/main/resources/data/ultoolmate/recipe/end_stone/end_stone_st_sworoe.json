@@ -4,13 +4,13 @@
     "item": "minecraft:end_stone"
   },
   "base": {
-    "item": "ultoolmate:placeholder_shovel"
+    "item": "ultoolmate:placeholder_sworoe"
   },
   "result": {
     "count": 1,
-    "id": "ultoolmate:end_stone_shovel"
+    "id": "ultoolmate:end_stone_sworoe"
   },
   "template": {
-    "item": "ultoolmate:end_stone_st"
+    "item": "ultoolmate:sworoe_st"
   }
 }

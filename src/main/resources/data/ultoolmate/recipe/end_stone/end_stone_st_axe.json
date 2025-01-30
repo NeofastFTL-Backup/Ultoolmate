@@ -4,7 +4,7 @@
     "item": "minecraft:end_stone"
   },
   "base": {
-    "item": "minecraft:diamond_axe"
+    "item": "ultoolmate:placeholder_axe"
   },
   "result": {
     "count": 1,
