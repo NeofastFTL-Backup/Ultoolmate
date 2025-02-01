@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:copper_ingot"
+  },
+  "base": {
+    "item": "ultoolmate:placeholder_hoe"
+  },
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:copper_hoe"
+  },
+  "template": {
+    "item": "ultoolmate:copper_st"
+  }
+}

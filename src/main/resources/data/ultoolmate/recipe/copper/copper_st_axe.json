@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:copper_ingot"
+  },
+  "base": {
+    "item": "ultoolmate:placeholder_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:copper_axe"
+  },
+  "template": {
+    "item": "ultoolmate:copper_st"
+  }
+}

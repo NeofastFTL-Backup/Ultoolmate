@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:copper_ingot"
+  },
+  "base": {
+    "item": "ultoolmate:placeholder_sworoe"
+  },
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:copper_sworoe"
+  },
+  "template": {
+    "item": "ultoolmate:sworoe_st"
+  }
+}
