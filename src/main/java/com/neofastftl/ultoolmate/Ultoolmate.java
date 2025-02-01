@@ -54,6 +54,8 @@ public class Ultoolmate {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+
+            //End Stone
             event.accept(CustomItems.END_STONE_PICKAXE);
             event.accept(CustomItems.END_STONE_AXE);
             event.accept(CustomItems.END_STONE_HOE);
@@ -64,6 +66,7 @@ public class Ultoolmate {
             event.accept(CustomItems.END_STONE_PAXEL);
             event.accept(CustomItems.END_STONE_SWOROE);
 
+            //Netherrack
             event.accept(CustomItems.NETHERRACK_PICKAXE);
             event.accept(CustomItems.NETHERRACK_AXE);
             event.accept(CustomItems.NETHERRACK_HOE);
@@ -74,9 +77,36 @@ public class Ultoolmate {
             event.accept(CustomItems.NETHERRACK_PAXEL);
             event.accept(CustomItems.NETHERRACK_SWOROE);
 
+            //Copper
+            event.accept(CustomItems.COPPER_PICKAXE);
+            event.accept(CustomItems.COPPER_AXE);
+            event.accept(CustomItems.COPPER_HOE);
+            event.accept(CustomItems.COPPER_SHOVEL);
+            event.accept(CustomItems.COPPER_SWORD);
+            event.accept(CustomItems.COPPER_SHEARS);
+            event.accept(CustomItems.COPPER_BRUSH);
+            event.accept(CustomItems.COPPER_PAXEL);
+            event.accept(CustomItems.COPPER_SWOROE);
+
+            //Amethyst
+            event.accept(CustomItems.AMETHYST_PICKAXE);
+            event.accept(CustomItems.AMETHYST_AXE);
+            event.accept(CustomItems.AMETHYST_HOE);
+            event.accept(CustomItems.AMETHYST_SHOVEL);
+            event.accept(CustomItems.AMETHYST_SWORD);
+            event.accept(CustomItems.AMETHYST_SHEARS);
+            event.accept(CustomItems.AMETHYST_BRUSH);
+            event.accept(CustomItems.AMETHYST_PAXEL);
+            event.accept(CustomItems.AMETHYST_SWOROE);
+
+
+            //Smithing Templates - Materials
             event.accept(CustomItems.END_STONE_ST);
             event.accept(CustomItems.NETHERRACK_ST);
+            event.accept(CustomItems.COPPER_ST);
+            event.accept(CustomItems.AMETHYST_ST);
 
+            //Smithing Templates - Tools
             event.accept(CustomItems.SWOROE_ST);
             event.accept(CustomItems.PAXEL_ST);
             event.accept(CustomItems.SHEARS_ST);
@@ -88,7 +118,7 @@ public class Ultoolmate {
             event.accept(CustomItems.BRUSH_ST);
 
 
-
+            //Placeholders
             event.accept(CustomItems.PLACEHOLDER_PAXEL);
             event.accept(CustomItems.PLACEHOLDER_SWOROE);
             event.accept(CustomItems.PLACEHOLDER_HOE);
@@ -99,11 +129,13 @@ public class Ultoolmate {
             event.accept(CustomItems.PLACEHOLDER_BRUSH);
             event.accept(CustomItems.PLACEHOLDER_SHEARS);
 
-
+            //Ores and Such - Electrum
             event.accept(CustomBlocks.RAW_ELECTRUM_ORE);
             event.accept(CustomBlocks.DEEPSLATE_RAW_ELECTRUM_ORE);
             event.accept(CustomBlocks.RAW_ELECTRUM_BLOCK);
             event.accept(CustomItems.RAW_ELECTRUM);
+            event.accept(CustomItems.REFINED_ELECTRUM_INGOT);
+            event.accept(CustomBlocks.REFINED_ELECTRUM_BLOCK);
         }
     }
 

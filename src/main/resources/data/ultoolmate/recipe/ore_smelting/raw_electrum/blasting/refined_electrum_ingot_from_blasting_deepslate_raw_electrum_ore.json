@@ -3,7 +3,7 @@
   "category": "misc",
   "cookingtime": 100,
   "experience": 1.0,
-  "group": "refined_electrum_ingot",
+  "group": "raw_electrum_ingot",
   "ingredient": {
     "item": "ultoolmate:deepslate_raw_electrum_ore"
   },

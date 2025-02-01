@@ -5,9 +5,9 @@
   "experience": 1.0,
   "group": "refined_electrum_ingot",
   "ingredient": {
-    "item": "minecraft:deepslate_raw_electrum_ore"
+    "item": "ultoolmate:deepslate_raw_electrum_ore"
   },
   "result": {
-    "id": "minecraft:refined_electrum_ingot"
+    "id": "ultoolmate:refined_electrum_ingot"
   }
 }

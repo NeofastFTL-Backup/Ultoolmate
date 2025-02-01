@@ -19,15 +19,19 @@ public class CustomBlocks {
 
     public static final DeferredBlock<Block> RAW_ELECTRUM_ORE = registerBlock("raw_electrum_ore",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHER_GOLD_ORE)));
+                    .strength(1f).sound(SoundType.NETHER_GOLD_ORE)));
 
     public static final DeferredBlock<Block> DEEPSLATE_RAW_ELECTRUM_ORE = registerBlock("deepslate_raw_electrum_ore",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+                    .strength(1f).sound(SoundType.DEEPSLATE)));
 
     public static final DeferredBlock<Block> RAW_ELECTRUM_BLOCK = registerBlock("raw_electrum_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.COPPER_GRATE)));
+                    .strength(1f).sound(SoundType.COPPER_GRATE)));
+
+    public static final DeferredBlock<Block> REFINED_ELECTRUM_BLOCK = registerBlock("refined_electrum_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1f).sound(SoundType.COPPER_GRATE)));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

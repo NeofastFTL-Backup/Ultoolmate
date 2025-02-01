@@ -19,8 +19,30 @@
   "item.ultoolmate.netherrack_paxel": "Netherrack Paxel",
   "item.ultoolmate.netherrack_sworoe": "Netherrack Swohoe",
 
+  "item.ultoolmate.copper_axe": "Copper Axe",
+  "item.ultoolmate.copper_hoe": "Copper Hoe",
+  "item.ultoolmate.copper_pickaxe": "Copper Pickaxe",
+  "item.ultoolmate.copper_shovel": "Copper Shovel",
+  "item.ultoolmate.copper_sword": "Copper Sword",
+  "item.ultoolmate.copper_shears": "Copper Shears",
+  "item.ultoolmate.copper_brush": "Copper Brush",
+  "item.ultoolmate.copper_paxel": "Copper Paxel",
+  "item.ultoolmate.copper_sworoe": "Copper Swohoe",
+
+  "item.ultoolmate.amethyst_axe": "Amethyst Axe",
+  "item.ultoolmate.amethyst_hoe": "Amethyst Hoe",
+  "item.ultoolmate.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.ultoolmate.amethyst_shovel": "Amethyst Shovel",
+  "item.ultoolmate.amethyst_sword": "Amethyst Sword",
+  "item.ultoolmate.amethyst_shears": "Amethyst Shears",
+  "item.ultoolmate.amethyst_brush": "Amethyst Brush",
+  "item.ultoolmate.amethyst_paxel": "Amethyst Paxel",
+  "item.ultoolmate.amethyst_sworoe": "Amethyst Swohoe",
+
   "item.ultoolmate.end_stone_st": "End Stone Smithing Template",
   "item.ultoolmate.netherrack_st": "Netherrack Smithing Template",
+  "item.ultoolmate.copper_st": "Copper Upgrade Template",
+  "item.ultoolmate.amethyst_st": "Amethyst Upgrade Template",
 
   "item.ultoolmate.sworoe_st": "Swohoe Upgrade Template",
   "item.ultoolmate.paxel_st": "Paxel Upgrade Template",
@@ -47,6 +69,9 @@
   "block.ultoolmate.deepslate_raw_electrum_ore": "Deepslate Raw Electrum Ore",
   "block.ultoolmate.raw_electrum_block": "Raw Electrum Block",
   "item.ultoolmate.raw_electrum": "Raw Electrum",
+  "item.ultoolmate.refined_electrum_ingot": "Refined Electrum Ingot",
+  "block.ultoolmate.refined_electrum_block": "Refined Electrum Block",
+
 
 
   "tooltip.ultoolmate.sworoe_st.tooltip": "The Good Time ~ Spotishman",

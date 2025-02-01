@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ultoolmate:block/refined_electrum_block"
+    }
+  }
+}

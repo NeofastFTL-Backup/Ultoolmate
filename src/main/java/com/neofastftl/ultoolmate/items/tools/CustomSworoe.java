@@ -125,7 +125,7 @@ public class CustomSworoe extends HoeItem {
     }
     @Override
     public float getDestroySpeed(ItemStack pStack, BlockState state) {
-        return (state.is(BlockTags.MINEABLE_WITH_HOE)) ? super.getDestroySpeed(pStack, Blocks.ACACIA_LEAVES.defaultBlockState()) : 4.0F; //Possible hacky way to do this? :)
+        return (state.is(BlockTags.MINEABLE_WITH_HOE)) ? super.getDestroySpeed(pStack, Blocks.COBWEB.defaultBlockState()) : 4.0F; //Possible hacky way to do this? :)
     }
 
     public boolean shouldCauseBlockBreakReset(ItemStack oldStack, ItemStack newStack) {

@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+    "layer0": "ultoolmate:item/refined_electrum_ingot"
+    }
+}
