@@ -16,116 +16,81 @@ import java.util.List;
 public class CustomItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Ultoolmate.MOD_ID);
 
+    private static final ToolRegistry TOOL_REGISTRY = new ToolRegistry(ITEMS);
+    private static final MaterialRegistry MATERIAL_REGISTRY = new MaterialRegistry(ITEMS);
 
-    //End Stone
-    public static final DeferredItem<PickaxeItem> END_STONE_PICKAXE = ITEMS.register("end_stone_pickaxe",
-            () -> new PickaxeItem(CustomTiers.ENDSTONE, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(CustomTiers.ENDSTONE, 1.0F, 2.8f))));
-    public static final DeferredItem<AxeItem> END_STONE_AXE = ITEMS.register("end_stone_axe",
-            () -> new AxeItem(CustomTiers.ENDSTONE, new Item.Properties()
-                    .attributes(AxeItem.createAttributes(CustomTiers.ENDSTONE, 1.0F, 2.8f))));
-    public static final DeferredItem<HoeItem> END_STONE_HOE = ITEMS.register("end_stone_hoe",
-            () -> new HoeItem(CustomTiers.ENDSTONE, new Item.Properties()
-                    .attributes(HoeItem.createAttributes(CustomTiers.ENDSTONE, 1.0F, 2.8f))));
-    public static final DeferredItem<ShovelItem> END_STONE_SHOVEL = ITEMS.register("end_stone_shovel",
-            () -> new ShovelItem(CustomTiers.ENDSTONE, new Item.Properties()
-                    .attributes(ShovelItem.createAttributes(CustomTiers.ENDSTONE, 1.0F, 2.8f))));
-    public static final DeferredItem<SwordItem> END_STONE_SWORD = ITEMS.register("end_stone_sword",
-            () -> new SwordItem(CustomTiers.ENDSTONE, new Item.Properties()
-                    .attributes(SwordItem.createAttributes(CustomTiers.ENDSTONE, 1.0F, 2.8f))));
-    public static final DeferredItem<ShearsItem> END_STONE_SHEARS= ITEMS.register("end_stone_shears",
-            () -> new ShearsItem(new Item.Properties().durability(250)));
-    public static final DeferredItem<BrushItem> END_STONE_BRUSH= ITEMS.register("end_stone_brush",
-            () -> new BrushItem(new Item.Properties().durability(250)));
-    public static final DeferredItem<CustomPaxel> END_STONE_PAXEL= ITEMS.register("end_stone_paxel",
-            () -> new CustomPaxel(CustomTiers.PAXEL, new Item.Properties()
-                    .attributes(CustomPaxel.createAttributes(CustomTiers.PAXEL, 1.0F, 2.8f))));
-    public static final DeferredItem<CustomSworoe> END_STONE_SWOROE= ITEMS.register("end_stone_sworoe",
-            () -> new CustomSworoe(CustomTiers.SWOROE, new Item.Properties()
-                    .attributes(CustomSworoe.createAttributes(CustomTiers.SWOROE, 11.0F, 7.8f))));
+    static {
+        TOOL_REGISTRY.registerToolSet("end_stone", CustomTiers.ENDSTONE, CustomTiers.ENDSTONE_PAXEL, CustomTiers.ENDSTONE_SWOROE, MaterialColor.END_STONE);
+        TOOL_REGISTRY.registerToolSet("netherrack", CustomTiers.NETHERRACK, CustomTiers.NETHERRACK_PAXEL, CustomTiers.NETHERRACK_SWOROE, MaterialColor.NETHERRACK);
+        TOOL_REGISTRY.registerToolSet("copper", CustomTiers.COPPER, CustomTiers.COPPER_PAXEL, CustomTiers.COPPER_SWOROE, MaterialColor.COPPER);
+        TOOL_REGISTRY.registerToolSet("amethyst", CustomTiers.AMETHYST, CustomTiers.AMETHYST_PAXEL, CustomTiers.AMETHYST_SWOROE, MaterialColor.AMETHYST);
 
+        TOOL_REGISTRY.registerToolSet("flint", CustomTiers.FLINT, CustomTiers.FLINT_PAXEL, CustomTiers.FLINT_SWOROE, MaterialColor.FLINT);
+        TOOL_REGISTRY.registerToolSet("bronze", CustomTiers.BRONZE, CustomTiers.BRONZE_PAXEL, CustomTiers.BRONZE_SWOROE, MaterialColor.BRONZE);
+        TOOL_REGISTRY.registerToolSet("wrought_iron", CustomTiers.WROUGHT_IRON, CustomTiers.WROUGHT_IRON_PAXEL, CustomTiers.WROUGHT_IRON_SWOROE, MaterialColor.WROUGHT_IRON);
+        TOOL_REGISTRY.registerToolSet("steel", CustomTiers.STEEL, CustomTiers.STEEL_PAXEL, CustomTiers.STEEL_SWOROE, MaterialColor.STEEL);
+        TOOL_REGISTRY.registerToolSet("cast_iron", CustomTiers.CAST_IRON, CustomTiers.CAST_IRON_PAXEL, CustomTiers.CAST_IRON_SWOROE, MaterialColor.CAST_IRON);
+        TOOL_REGISTRY.registerToolSet("stainless_steel", CustomTiers.STAINLESS_STEEL, CustomTiers.STAINLESS_STEEL_PAXEL, CustomTiers.STAINLESS_STEEL_SWOROE, MaterialColor.STAINLESS_STEEL);
+        TOOL_REGISTRY.registerToolSet("titanium", CustomTiers.TITANIUM, CustomTiers.TITANIUM_PAXEL, CustomTiers.TITANIUM_SWOROE, MaterialColor.TITANIUM);
+        TOOL_REGISTRY.registerToolSet("tungsten_carbide", CustomTiers.TUNGSTEN_CARBIDE, CustomTiers.TUNGSTEN_CARBIDE_PAXEL, CustomTiers.TUNGSTEN_CARBIDE_SWOROE, MaterialColor.TUNGSTEN_CARBIDE);
+        TOOL_REGISTRY.registerToolSet("inconel", CustomTiers.INCONEL, CustomTiers.INCONEL_PAXEL, CustomTiers.INCONEL_SWOROE, MaterialColor.INCONEL);
+        TOOL_REGISTRY.registerToolSet("hafnium_carbide", CustomTiers.HAFNIUM_CARBIDE, CustomTiers.HAFNIUM_CARBIDE_PAXEL, CustomTiers.HAFNIUM_CARBIDE_SWOROE, MaterialColor.HAFNIUM_CARBIDE);
+        TOOL_REGISTRY.registerToolSet("graphene_steel", CustomTiers.GRAPHENE_STEEL, CustomTiers.GRAPHENE_STEEL_PAXEL, CustomTiers.GRAPHENE_STEEL_SWOROE, MaterialColor.GRAPHENE_STEEL);
+        TOOL_REGISTRY.registerToolSet("cermet", CustomTiers.CERMET, CustomTiers.CERMET_PAXEL, CustomTiers.CERMET_SWOROE, MaterialColor.CERMET);
+        TOOL_REGISTRY.registerToolSet("maraging_steel", CustomTiers.MARAGING_STEEL, CustomTiers.MARAGING_STEEL_PAXEL, CustomTiers.MARAGING_STEEL_SWOROE, MaterialColor.MARAGING_STEEL);
 
-    //Netherrack
-    public static final DeferredItem<PickaxeItem> NETHERRACK_PICKAXE = ITEMS.register("netherrack_pickaxe",
-            () -> new PickaxeItem(CustomTiers.NETHERRACK, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(CustomTiers.NETHERRACK, 1.0F, 2.8f))));
-    public static final DeferredItem<AxeItem> NETHERRACK_AXE = ITEMS.register("netherrack_axe",
-            () -> new AxeItem(CustomTiers.NETHERRACK, new Item.Properties()
-                    .attributes(AxeItem.createAttributes(CustomTiers.NETHERRACK, 1.0F, 2.8f))));
-    public static final DeferredItem<HoeItem> NETHERRACK_HOE = ITEMS.register("netherrack_hoe",
-            () -> new HoeItem(CustomTiers.NETHERRACK, new Item.Properties()
-                    .attributes(HoeItem.createAttributes(CustomTiers.NETHERRACK, 1.0F, 2.8f))));
-    public static final DeferredItem<ShovelItem> NETHERRACK_SHOVEL = ITEMS.register("netherrack_shovel",
-            () -> new ShovelItem(CustomTiers.NETHERRACK, new Item.Properties()
-                    .attributes(ShovelItem.createAttributes(CustomTiers.NETHERRACK, 1.0F, 2.8f))));
-    public static final DeferredItem<SwordItem> NETHERRACK_SWORD = ITEMS.register("netherrack_sword",
-            () -> new SwordItem(CustomTiers.NETHERRACK, new Item.Properties()
-                    .attributes(SwordItem.createAttributes(CustomTiers.NETHERRACK, 1.0F, 2.8f))));
-    public static final DeferredItem<ShearsItem> NETHERRACK_SHEARS= ITEMS.register("netherrack_shears",
-            () -> new ShearsItem(new Item.Properties().durability(250)));
-    public static final DeferredItem<BrushItem> NETHERRACK_BRUSH= ITEMS.register("netherrack_brush",
-            () -> new BrushItem(new Item.Properties().durability(250)));
-    public static final DeferredItem<CustomPaxel> NETHERRACK_PAXEL= ITEMS.register("netherrack_paxel",
-            () -> new CustomPaxel(CustomTiers.PAXEL, new Item.Properties()
-                    .attributes(CustomPaxel.createAttributes(CustomTiers.PAXEL, 1.0F, 2.8f))));
-    public static final DeferredItem<CustomSworoe> NETHERRACK_SWOROE= ITEMS.register("netherrack_sworoe",
-            () -> new CustomSworoe(CustomTiers.SWOROE, new Item.Properties()
-                    .attributes(CustomSworoe.createAttributes(CustomTiers.SWOROE, 11.0F, 7.8f))));
+        MATERIAL_REGISTRY.registerMaterial("end_stone", MaterialColor.END_STONE);
+        MATERIAL_REGISTRY.registerMaterial("netherrack", MaterialColor.NETHERRACK);
+        MATERIAL_REGISTRY.registerMaterial("copper", MaterialColor.COPPER);
+        MATERIAL_REGISTRY.registerMaterial("amethyst", MaterialColor.AMETHYST);
 
-    //Copper
-    public static final DeferredItem<PickaxeItem> COPPER_PICKAXE = ITEMS.register("copper_pickaxe",
-            () -> new PickaxeItem(CustomTiers.COPPER, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(CustomTiers.COPPER, 1.0F, 2.8f))));
-    public static final DeferredItem<AxeItem> COPPER_AXE = ITEMS.register("copper_axe",
-            () -> new AxeItem(CustomTiers.COPPER, new Item.Properties()
-                    .attributes(AxeItem.createAttributes(CustomTiers.COPPER, 1.0F, 2.8f))));
-    public static final DeferredItem<HoeItem> COPPER_HOE = ITEMS.register("copper_hoe",
-            () -> new HoeItem(CustomTiers.COPPER, new Item.Properties()
-                    .attributes(HoeItem.createAttributes(CustomTiers.COPPER, 1.0F, 2.8f))));
-    public static final DeferredItem<ShovelItem> COPPER_SHOVEL = ITEMS.register("copper_shovel",
-            () -> new ShovelItem(CustomTiers.COPPER, new Item.Properties()
-                    .attributes(ShovelItem.createAttributes(CustomTiers.COPPER, 1.0F, 2.8f))));
-    public static final DeferredItem<SwordItem> COPPER_SWORD = ITEMS.register("copper_sword",
-            () -> new SwordItem(CustomTiers.COPPER, new Item.Properties()
-                    .attributes(SwordItem.createAttributes(CustomTiers.COPPER, 1.0F, 2.8f))));
-    public static final DeferredItem<ShearsItem> COPPER_SHEARS= ITEMS.register("copper_shears",
-            () -> new ShearsItem(new Item.Properties().durability(250)));
-    public static final DeferredItem<BrushItem> COPPER_BRUSH= ITEMS.register("copper_brush",
-            () -> new BrushItem(new Item.Properties().durability(250)));
-    public static final DeferredItem<CustomPaxel> COPPER_PAXEL= ITEMS.register("copper_paxel",
-            () -> new CustomPaxel(CustomTiers.PAXEL, new Item.Properties()
-                    .attributes(CustomPaxel.createAttributes(CustomTiers.PAXEL, 1.0F, 2.8f))));
-    public static final DeferredItem<CustomSworoe> COPPER_SWOROE= ITEMS.register("copper_sworoe",
-            () -> new CustomSworoe(CustomTiers.SWOROE, new Item.Properties()
-                    .attributes(CustomSworoe.createAttributes(CustomTiers.SWOROE, 11.0F, 7.8f))));
+        MATERIAL_REGISTRY.registerMaterial("flint", MaterialColor.FLINT);
+        MATERIAL_REGISTRY.registerMaterial("bronze", MaterialColor.BRONZE);
+        MATERIAL_REGISTRY.registerMaterial("wrought_iron", MaterialColor.WROUGHT_IRON);
+        MATERIAL_REGISTRY.registerMaterial("steel", MaterialColor.STEEL);
+        MATERIAL_REGISTRY.registerMaterial("cast_iron", MaterialColor.CAST_IRON);
+        MATERIAL_REGISTRY.registerMaterial("stainless_steel", MaterialColor.STAINLESS_STEEL);
+        MATERIAL_REGISTRY.registerMaterial("titanium", MaterialColor.TITANIUM);
+        MATERIAL_REGISTRY.registerMaterial("tungsten_carbide", MaterialColor.TUNGSTEN_CARBIDE);
+        MATERIAL_REGISTRY.registerMaterial("inconel", MaterialColor.INCONEL);
+        MATERIAL_REGISTRY.registerMaterial("hafnium_carbide", MaterialColor.HAFNIUM_CARBIDE);
+        MATERIAL_REGISTRY.registerMaterial("graphene_steel", MaterialColor.GRAPHENE_STEEL);
+        MATERIAL_REGISTRY.registerMaterial("cermet", MaterialColor.CERMET);
+        MATERIAL_REGISTRY.registerMaterial("maraging_steel", MaterialColor.MARAGING_STEEL);
+    }
 
+    @SuppressWarnings("unchecked")
+    public static <T extends Item> DeferredItem<T> getTool(String material, String type) {
+        return (DeferredItem<T>) TOOL_REGISTRY.getTool(material, type);
+    }
 
-    //Amethyst
-    public static final DeferredItem<PickaxeItem> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe",
-            () -> new PickaxeItem(CustomTiers.AMETHYST, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(CustomTiers.AMETHYST, 1.0F, 2.8f))));
-    public static final DeferredItem<AxeItem> AMETHYST_AXE = ITEMS.register("amethyst_axe",
-            () -> new AxeItem(CustomTiers.AMETHYST, new Item.Properties()
-                    .attributes(AxeItem.createAttributes(CustomTiers.AMETHYST, 1.0F, 2.8f))));
-    public static final DeferredItem<HoeItem> AMETHYST_HOE = ITEMS.register("amethyst_hoe",
-            () -> new HoeItem(CustomTiers.AMETHYST, new Item.Properties()
-                    .attributes(HoeItem.createAttributes(CustomTiers.AMETHYST, 1.0F, 2.8f))));
-    public static final DeferredItem<ShovelItem> AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel",
-            () -> new ShovelItem(CustomTiers.AMETHYST, new Item.Properties()
-                    .attributes(ShovelItem.createAttributes(CustomTiers.AMETHYST, 1.0F, 2.8f))));
-    public static final DeferredItem<SwordItem> AMETHYST_SWORD = ITEMS.register("amethyst_sword",
-            () -> new SwordItem(CustomTiers.AMETHYST, new Item.Properties()
-                    .attributes(SwordItem.createAttributes(CustomTiers.AMETHYST, 1.0F, 2.8f))));
-    public static final DeferredItem<ShearsItem> AMETHYST_SHEARS= ITEMS.register("amethyst_shears",
-            () -> new ShearsItem(new Item.Properties().durability(250)));
-    public static final DeferredItem<BrushItem> AMETHYST_BRUSH= ITEMS.register("amethyst_brush",
-            () -> new BrushItem(new Item.Properties().durability(250)));
-    public static final DeferredItem<CustomPaxel> AMETHYST_PAXEL= ITEMS.register("amethyst_paxel",
-            () -> new CustomPaxel(CustomTiers.PAXEL, new Item.Properties()
-                    .attributes(CustomPaxel.createAttributes(CustomTiers.PAXEL, 1.0F, 2.8f))));
-    public static final DeferredItem<CustomSworoe> AMETHYST_SWOROE= ITEMS.register("amethyst_sworoe",
-            () -> new CustomSworoe(CustomTiers.SWOROE, new Item.Properties()
-                    .attributes(CustomSworoe.createAttributes(CustomTiers.SWOROE, 11.0F, 7.8f))));
+    public static List<DeferredItem<? extends Item>> getAllTools() {
+        return TOOL_REGISTRY.getAllTools();
+    }
+
+    public static DeferredItem<Item> getMaterialTemplate(String material) {
+        return MATERIAL_REGISTRY.getTemplate(material);
+    }
+
+    public static List<DeferredItem<Item>> getAllMaterialTemplates() {
+        return MATERIAL_REGISTRY.getAllTemplates();
+    }
+
+    public static List<DeferredItem<Item>> getAllToolTemplates() {
+        return List.of(PAXEL_ST, SWOROE_ST, HOE_ST, AXE_ST, PICKAXE_ST, SHOVEL_ST, SWORD_ST, SHEARS_ST, BRUSH_ST);
+    }
+
+    public static MaterialColor getToolMaterialColor(String material) {
+        return TOOL_REGISTRY.getColor(material);
+    }
+
+    public static MaterialColor getToolColor(DeferredItem<? extends Item> tool) {
+        return TOOL_REGISTRY.getToolColor(tool);
+    }
+
+    public static MaterialColor getMaterialTemplateColor(DeferredItem<Item> template) {
+        return MATERIAL_REGISTRY.getTemplateColor(template);
+    }
 
 
     //Raw Materials
@@ -134,20 +99,8 @@ public class CustomItems {
     public static final DeferredItem<Item> REFINED_ELECTRUM_INGOT = ITEMS.register("refined_electrum_ingot",
             () -> new Item(new Item.Properties()));
 
-    //Smithing Templates
 
-    //Materials
-    public static final DeferredItem<Item> END_STONE_ST = ITEMS.register("end_stone_st",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> NETHERRACK_ST = ITEMS.register("netherrack_st",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> COPPER_ST = ITEMS.register("copper_st",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> AMETHYST_ST = ITEMS.register("amethyst_st",
-            () -> new Item(new Item.Properties()));
-
-
-    //Tools
+    //Tools Templates
     public static final DeferredItem<Item> PAXEL_ST = ITEMS.register("paxel_st",
             () -> new Item(new Item.Properties()) {
                 @Override

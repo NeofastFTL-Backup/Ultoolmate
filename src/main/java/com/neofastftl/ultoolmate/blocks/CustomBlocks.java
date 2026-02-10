@@ -33,6 +33,14 @@ public class CustomBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(1f).sound(SoundType.COPPER_GRATE)));
 
+    public static final DeferredBlock<AlloySmelterControllerBlock> ALLOY_SMELTER_CONTROLLER = registerBlock("alloy_smelter_controller",
+            () -> new AlloySmelterControllerBlock(BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> ALLOY_SMELTER_CASING = registerBlock("alloy_smelter_casing",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

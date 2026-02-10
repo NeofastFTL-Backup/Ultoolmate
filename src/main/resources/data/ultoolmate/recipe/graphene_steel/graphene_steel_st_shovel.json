@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "base": {
+    "item": "ultoolmate:placeholder_shovel"
+  },
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:graphene_steel_shovel"
+  },
+  "template": {
+    "item": "ultoolmate:graphene_steel_st"
+  }
+}

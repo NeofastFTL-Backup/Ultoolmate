@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "entries": [
+    "ultoolmate:end_stone_st_in_end_city",
+    "ultoolmate:netherrack_st_in_bastion",
+    "ultoolmate:copper_st_in_dungeon",
+    "ultoolmate:amethyst_st_in_geode",
+    "ultoolmate:paxel_st_in_village",
+    "ultoolmate:sworoe_st_in_village",
+    "ultoolmate:pickaxe_st_in_mineshaft",
+    "ultoolmate:axe_st_in_village",
+    "ultoolmate:sword_st_in_stronghold",
+    "ultoolmate:shovel_st_in_village",
+    "ultoolmate:hoe_st_in_village",
+    "ultoolmate:shears_st_in_village",
+    "ultoolmate:brush_st_in_desert_pyramid"
+  ]
+}

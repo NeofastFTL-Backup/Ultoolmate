@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:copper_ingot"
+  },
+  "base": {
+    "item": "ultoolmate:placeholder_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:bronze_sword"
+  },
+  "template": {
+    "item": "ultoolmate:bronze_st"
+  }
+}

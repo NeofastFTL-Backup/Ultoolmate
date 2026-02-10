@@ -27,6 +27,9 @@ repositories {
         name = "ModMaven"
         url = "https://modmaven.dev"
     }
+    maven {
+        url "https://cursemaven.com"
+    }
 }
 
 base {
@@ -122,8 +125,14 @@ configurations {
 
 dependencies {
     compileOnly("mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}")
+
     // at runtime, use the full JEI jar for NeoForge
     runtimeOnly("mezz.jei:jei-${mc_version}-neoforge:${jei_version}")
+    implementation "curse.maven:just-enough-resources-jer-240630:6506298"
+
+    // Just Enough Resources (JER) for loot table viewing
+    // We add it to localRuntime so it is available in dev but not published as a dependency
+
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
     // compileOnly "mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}"

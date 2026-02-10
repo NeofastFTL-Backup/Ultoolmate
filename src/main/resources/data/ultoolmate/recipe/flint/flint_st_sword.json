@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:flint"
+  },
+  "base": {
+    "item": "ultoolmate:placeholder_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:flint_sword"
+  },
+  "template": {
+    "item": "ultoolmate:flint_st"
+  }
+}

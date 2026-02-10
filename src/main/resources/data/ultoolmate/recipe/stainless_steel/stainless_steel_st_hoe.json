@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "base": {
+    "item": "ultoolmate:placeholder_hoe"
+  },
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:stainless_steel_hoe"
+  },
+  "template": {
+    "item": "ultoolmate:stainless_steel_st"
+  }
+}

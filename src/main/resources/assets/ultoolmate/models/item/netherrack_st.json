@@ -1,6 +1,1 @@
-{
-    "parent": "item/handheld",
-    "textures": {
-    "layer0": "ultoolmate:item/netherrack_st"
-    }
-}
+{ "parent": "ultoolmate:item/template_st" }

@@ -128,7 +128,7 @@ public class CustomPaxel extends PickaxeItem {
     }
     @Override
     public float getDestroySpeed(ItemStack pStack, BlockState state) {
-        return (state.is(BlockTags.MINEABLE_WITH_PICKAXE) || state.is(BlockTags.MINEABLE_WITH_SHOVEL) || state.is(BlockTags.MINEABLE_WITH_AXE)) ? super.getDestroySpeed(pStack, Blocks.ACACIA_LEAVES.defaultBlockState()) : 4.0F; //Possible hacky way to do this? :)
+        return (state.is(BlockTags.MINEABLE_WITH_PICKAXE) || state.is(BlockTags.MINEABLE_WITH_SHOVEL) || state.is(BlockTags.MINEABLE_WITH_AXE)) ? this.getTier().getSpeed() : 1.0F;
     }
 
     public boolean shouldCauseBlockBreakReset(ItemStack oldStack, ItemStack newStack) {

@@ -1,6 +1,1 @@
-{
-    "parent": "item/handheld",
-    "textures": {
-    "layer0": "ultoolmate:item/amethyst_sworoe"
-    }
-}
+{ "parent": "ultoolmate:item/placeholder_sword" }

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:copper_ingot"
+  },
+  "base": {
+    "item": "ultoolmate:placeholder_paxel"
+  },
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:bronze_paxel"
+  },
+  "template": {
+    "item": "ultoolmate:bronze_st"
+  }
+}

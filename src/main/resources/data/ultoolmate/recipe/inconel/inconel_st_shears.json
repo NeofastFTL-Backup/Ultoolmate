@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "base": {
+    "item": "ultoolmate:placeholder_shears"
+  },
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:inconel_shears"
+  },
+  "template": {
+    "item": "ultoolmate:inconel_st"
+  }
+}

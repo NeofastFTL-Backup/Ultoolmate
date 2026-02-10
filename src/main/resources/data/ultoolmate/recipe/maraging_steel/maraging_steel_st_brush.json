@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "base": {
+    "item": "ultoolmate:placeholder_brush"
+  },
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:maraging_steel_brush"
+  },
+  "template": {
+    "item": "ultoolmate:maraging_steel_st"
+  }
+}

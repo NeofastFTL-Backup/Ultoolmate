@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "base": {
+    "item": "ultoolmate:placeholder_paxel"
+  },
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:steel_paxel"
+  },
+  "template": {
+    "item": "ultoolmate:steel_st"
+  }
+}

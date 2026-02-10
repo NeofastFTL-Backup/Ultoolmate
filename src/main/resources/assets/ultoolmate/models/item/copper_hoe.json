@@ -1,6 +1,1 @@
-{
-    "parent": "item/handheld",
-    "textures": {
-    "layer0": "ultoolmate:item/copper_hoe"
-    }
-}
+{ "parent": "ultoolmate:item/placeholder_hoe" }

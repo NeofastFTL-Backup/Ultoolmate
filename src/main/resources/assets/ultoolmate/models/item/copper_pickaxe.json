@@ -1,6 +1,1 @@
-{
-    "parent": "item/handheld",
-    "textures": {
-    "layer0": "ultoolmate:item/copper_pickaxe"
-    }
-}
+{ "parent": "ultoolmate:item/placeholder_pickaxe" }

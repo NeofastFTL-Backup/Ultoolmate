@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "base": {
+    "item": "ultoolmate:placeholder_paxel"
+  },
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:tungsten_carbide_paxel"
+  },
+  "template": {
+    "item": "ultoolmate:tungsten_carbide_st"
+  }
+}
