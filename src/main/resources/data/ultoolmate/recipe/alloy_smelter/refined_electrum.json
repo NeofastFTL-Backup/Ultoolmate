@@ -1,0 +1,10 @@
+{
+  "type": "ultoolmate:alloy_smelter",
+  "ingredients": {
+    "item": "minecraft:copper_ingot"
+  },
+  "result": {
+    "count": 1,
+    "id": "ultoolmate:refined_electrum_ingot"
+  }
+}

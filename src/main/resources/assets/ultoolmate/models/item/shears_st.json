@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-    "layer0": "ultoolmate:item/placeholder_shears"
+    "layer0": "ultoolmate:item/shears_st"
     }
 }
